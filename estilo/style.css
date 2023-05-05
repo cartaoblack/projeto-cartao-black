@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #c5ebd6;
+    background-color: #A55CC7;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -31,7 +31,7 @@ p {
 }
 
 header {
-    background-color: #1a5c37;
+    background-color: #041319;
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -56,7 +56,7 @@ header > h1 {
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: #041319;
     padding: 20px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.678);
     font-weight: bold;
@@ -73,7 +73,7 @@ nav > a {
 
 nav > a:hover {
 
-    background-color: #2fa866;
+    background-color: #A55CC7;
     
 }
 
