@@ -84,7 +84,7 @@ main h2 {
 main h2 {
     font-family: 'Times New Roman', Times, serif;
     color: var(--cor4);
-    font-size: 1.3em;
+    font-size: 5vw;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }
