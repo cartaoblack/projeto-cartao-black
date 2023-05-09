@@ -50,7 +50,7 @@ header > p {
 
 header > h1 {
     color: white;
-    font-size: 4vw;
+    font-size: 1.6em;
     padding-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(39, 39, 39, 0.5);
 }
