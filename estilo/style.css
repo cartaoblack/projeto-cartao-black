@@ -203,7 +203,7 @@ body {
       text-align: left;
       padding-bottom: 30px;
       padding: 20px;
-      font-size: 1.3em;
+      font-size: 1em;
       box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
   }
 
@@ -222,6 +222,7 @@ body {
 
   .numero {
       text-align: left;
+      font-size: 1em;
   }
 
   div#container {
