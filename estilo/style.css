@@ -221,6 +221,5 @@ body {
   }
 
   div#container {
-    width: 80vw;
     overflow-x: auto;
   }
