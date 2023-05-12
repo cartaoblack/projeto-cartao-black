@@ -213,7 +213,7 @@ body {
   }
 
   caption {
-      font-size: 1em;
+      font-size: 0.8em;
       font-weight: bold;
       color: white;
       padding: 10px;
@@ -222,7 +222,7 @@ body {
 
   .numero {
       text-align: left;
-      font-size: 1em;
+      font-size: 0.8em;
   }
 
   div#container {
