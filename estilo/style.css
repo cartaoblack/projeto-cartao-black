@@ -202,6 +202,7 @@ body {
       color: rgb(169, 119, 189);
       text-align: center;
       padding-bottom: 30px;
+      padding: 20px;
       box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
   }
 
