@@ -204,7 +204,8 @@ body {
       color: rgb(169, 119, 189);
       text-align: left;
       margin-bottom: 20px;
-      text-align: justify;
+      background-position: right center;
+      background-size: cover;
   }
 
   td, th {
