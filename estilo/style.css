@@ -149,8 +149,6 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
-
-
 }
 
 aside {
@@ -206,8 +204,12 @@ body {
       margin-bottom: 20px;
       box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
       width: 80%;
-      background-position: right center;
-      
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+
   }
 
   td, th {
