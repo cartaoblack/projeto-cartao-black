@@ -210,10 +210,11 @@ body {
   td, th {
       border: 1px solid black; 
       padding: 30px;
+      font-size: 1em;
   }
 
   caption {
-      font-size: 0.6em;
+      font-size: 1em;
       font-weight: bold;
       color: white;
       padding: 10px;
