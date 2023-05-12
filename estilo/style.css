@@ -190,3 +190,37 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  table {
+      width: 1000px;
+      border-collapse: separate;
+      background-color: #041319;
+      color: rgb(169, 119, 189);
+      text-align: center;
+  }
+
+  td, th {
+      border: 1px solid black; 
+      padding: 30px;
+  }
+
+  caption {
+      font-size: 1em;
+      font-weight: bold;
+      color: white;
+      padding: 10px;
+      background-color: rgb(132, 3, 253);
+  }
+
+  .numero {
+      text-align: left;
+  }
+
+  div#container {
+    width: 50vw;
+    overflow-x: auto;
+  }
