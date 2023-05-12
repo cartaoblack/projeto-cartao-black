@@ -199,10 +199,11 @@ body {
       width: 1000px;
       border-collapse: separate;
       background-color: #041319;
-      color: rgb(169, 119, 189);
-      text-align: center;
+      color: rgb(251, 249, 252);
+      text-align: left;
       padding-bottom: 30px;
       padding: 20px;
+      font-size: 1.3em;
       box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
   }
 
