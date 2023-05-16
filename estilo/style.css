@@ -215,7 +215,7 @@ body {
   }
 
   caption {
-      font-size: 1em;
+      font-size: 1.5em;
       font-weight: bold;
       color: white;
       padding: 20px;
@@ -225,6 +225,8 @@ body {
   .numero {
       text-align: left;
       font-size: 1.5em;
+      background-color: #7825D1;
+      color: white;
   }
 
   div#container {
