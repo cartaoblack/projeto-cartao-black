@@ -66,6 +66,7 @@ nav > a {
     color: var(--cor0);
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.678);
     text-decoration: none;
     font-weight: bold;
     transition-duration: 3s;
