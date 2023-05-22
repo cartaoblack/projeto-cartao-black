@@ -236,3 +236,7 @@ body {
   div#container {
     overflow-x: auto;
   }
+  form.h1 {
+    text-align: center;
+    color: white;
+  }
