@@ -11,7 +11,15 @@
     <form action="cadastro.pho" method="get">
         <p>
             <label for="iusu">Usuario</label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required minlength="8" maxlength="15" autocomplete="current-password">
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="6" maxlength="12">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
     <link rel="stylesheet" href="estilo/style.css">
