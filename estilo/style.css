@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #1a5c37;
+    background-color: #A55CC7;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -23,15 +23,15 @@ p {
 
 :root {
     --cor0:  #ebe5c5;
-    --cor1:  #83e1ad;
-    --cor2:  #3ddc84;
-    --cor3:  #2fa866;
-    --cor4:  #1a5c37;
-    --cor5:  #063d1e;  
+    --cor1:  #89658F;
+    --cor2:  #8C868C;
+    --cor3:  #A55CC7;
+    --cor4:  #7825D1;
+    --cor5:  #041319;  
 }
 
 header {
-    background-color: #063d1e;
+    background-color: #041319;
     min-height: 150px;
     text-align: center;
     padding-top: 70px;
