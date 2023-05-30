@@ -55,27 +55,27 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(39, 39, 39, 0.5);
 }
 
-nav {
-    background-color: #041319;
-    padding: 30px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.808);
-    font-weight: bold;
+
+menu {
+    display: none;
+    background-color: #063d1e;
 }
 
-nav > a {
-    color: var(--cor0);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.678);
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
     text-decoration: none;
-    font-weight: bold;
-    transition-duration: 3s;
+    background-color: #063d1e;
+    text-align: center;
+    color: #83e1ad;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
 }
-
-nav > a:hover {
-
-    background-color: #A55CC7;
-    
+menu > ul > li > a:hover {
+    background-color: #1a5c37;
 }
 
 main h2 {
