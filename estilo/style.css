@@ -250,7 +250,7 @@ footer a:hover {
     
         color: white;
         padding: 3px 7px;
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 0px;
         border-radius: 2px;
     }
@@ -261,7 +261,7 @@ footer a:hover {
         font-size: 1em;
         margin: 8px 10;
         display: inline-block;
-        border-radius: 2px;
+        border-radius: 4px;
         box-sizing: border-box;
     }
 
@@ -270,10 +270,10 @@ footer a:hover {
         background-color: #430f7a;
         font-size: 1em;
         color: white;
-        
-        margin: 5px 10px;
-        border: none;
-        border-radius: 2px;
+        padding: 10px 20px;
+        margin: 5px 10;
+        border: block;
+        border-radius: 4px;
         cursor: pointer;
     }
 
@@ -287,9 +287,9 @@ footer a:hover {
         font-size: 1em;
         color: white;
         padding: 10px 20px;
-        margin: 5px 10px;
-        border: none;
-        border-radius: 2px;
+        margin: 5px 10;
+        border: block;
+        border-radius: 4px;
         cursor: pointer;
     }
 
