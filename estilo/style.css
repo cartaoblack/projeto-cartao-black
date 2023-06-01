@@ -64,7 +64,7 @@ nav {
 }
 
 nav > a {
-    color: var(--cor0);
+    color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.678);
@@ -238,7 +238,7 @@ footer a:hover {
     
     form {
         background-color: #041319;
-        padding: 10px;
+        padding: 50px;
         border-radius: 5px;
     }
 
@@ -323,6 +323,7 @@ footer a:hover {
         color: white;
         padding: 3px 7px;
         border-radius: 5px;
+        text-align: center;
     }
 
     input[type=radio] + label, input[type=checkbox] + label {
