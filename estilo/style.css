@@ -22,7 +22,7 @@ p {
 }
 
 :root {
-    --cor0:  #ebe5c5;
+    --cor0:  #dfd6a7ac;
     --cor1:  #89658F;
     --cor2:  #8C868C;
     --cor3:  #A55CC7;
@@ -129,7 +129,7 @@ main {
     max-width: 1000px;
     margin-bottom: 30px;
     margin: auto;
-    background-color: #d4c9a283;
+    background-color: #dfd6a7;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -235,5 +235,97 @@ footer a:hover {
     text-align: center;
     color: white;
     }
-
     
+    form {
+        background-color: #041319;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    form label {
+        
+        width: fit-content;
+        font-size: 0.8em;
+        font-weight: 100;
+    
+        color: white;
+        padding: 3px 7px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 2px;
+    }
+
+    input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+        width: 100%;
+        padding: 6px 10px;
+        font-size: 1em;
+        margin: 8px 10;
+        display: inline-block;
+        border-radius: 2px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #430f7a;
+        font-size: 1em;
+        color: white;
+        
+        margin: 5px 10px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #A55CC7;
+    }
+
+    input[type=reset] {
+        width: 100%;
+        background-color: #430f7a;
+        font-size: 1em;
+        color: white;
+        padding: 10px 20px;
+        margin: 5px 10px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    input[type=reset]:hover {
+        background-color: #A55CC7;
+    }
+
+    input[type=button], button {
+        width: 100%;
+        background-color: #372991;
+        font-size: 1em;
+        color: white;
+        padding: 10px 20px;
+        margin: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=button]:hover, button:hover {
+        background-color: #7825d1;
+    }
+
+    fieldset {
+        border: 0.5px dotted #7825D1;
+    }
+    
+    fieldset > legend {
+        font-size: 0.8em;
+        font-weight: 100;
+        color: white;
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+
+    input[type=radio] + label, input[type=checkbox] + label {
+        display: inline-block;
+        font-size: 1em;
+    }
