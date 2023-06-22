@@ -531,6 +531,48 @@ nav .close-icon {
 }
 
 
+table {
+    width: 1350px;
+    border-collapse: separate;
+    background-color: #063d1e;
+    color: rgb(251, 249, 252);
+    text-align: right;
+    font-size: 0.8em;
+    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+    border-radius: 10px 0px 10px 0px;
+}
+
+td, th {
+    border: 1px solid #2fa866; 
+    padding: 30px;
+    text-align: left;
+}
+tr.destaque {
+  background-color: #2fa866;
+  font-size: 3.em;
+  text-align: center;
+}
+
+.numero {
+    text-align: right;
+    font-size: 2em;
+}
+
+div#container {
+  overflow-x: auto;
+  text-align: center;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    background-color: #2fa866;
+}
+
+
  @media(max-width: 830px) {
     .ul {
         position: fixed;
