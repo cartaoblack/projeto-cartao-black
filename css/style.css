@@ -254,6 +254,7 @@ nav .close-icon {
 }
 
 .parceiros .container div {
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
