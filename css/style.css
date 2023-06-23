@@ -379,6 +379,14 @@ nav .close-icon {
     background-color: #2fa866;
     color: black;
 }
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+
  .container1 {
     text-align: center;
     margin-bottom: 30px;
@@ -576,7 +584,7 @@ caption {
 }
 
 a {
-    color: #3ddc84;
+    color: #ebe5c5;
 }
 
 div.video {
