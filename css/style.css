@@ -610,6 +610,91 @@ div.video > iframe {
 }
 
 
+
+.container7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    background-color: #063d1e;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container7 .card3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #3ddc84;
+    border-left: 1px solid #3ddc84;
+}
+
+.container7 .card3 .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container7 .card3:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container7 .card3 .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 5em;
+    color: #2fa866;
+    pointer-events:none;
+}
+
+.container7 .card3 .content h3 {
+    font-size: 0.8em;
+    color: #ebe5c5;
+    z-index: 1;
+    padding: 10px;
+}
+
+.container7 .card3 .content p {
+    text-align: justify;
+    font-size: 0.8em;
+    color: #ebe5c5
+
+}
+
+.container7 .card3 .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 30px;
+    margin-top: 15px;
+    background: #2fa866;
+    color: #ebe5c5;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px #063d1e;
+}
+
+.beneficios {
+    background-color: #2fa866;
+    color: #ebe5c5;
+    text-align: center;
+    padding: 20px;
+}
+
+
  @media(max-width: 830px) {
     .ul {
         position: fixed;
