@@ -76,7 +76,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+    
 }
 
 nav ul {
@@ -166,7 +166,6 @@ nav .close-icon {
 
 .consultas-e-exames .consultas-e-exames-img {
     width: 40%;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
 }
 
 .consultas-e-exames .consultas-e-exames img{
@@ -535,7 +534,6 @@ aside > ul {
 
 .logo {
     padding: 3px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
 }
 
 
