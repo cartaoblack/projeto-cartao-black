@@ -258,7 +258,6 @@ nav .close-icon {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
 }
 
 .footer {
@@ -301,7 +300,6 @@ nav .close-icon {
 }
 
 .nossa-missao .nossa-missao-text {
-    width: 100%;
     padding: 20px;
 }
 
@@ -587,10 +585,9 @@ a {
 }
 
 div.video {
-    
     margin: 0px -30px 30px -30px;
     padding: 20px;
-    padding-bottom: 50%;
+    padding-bottom: 40%;
     position: relative;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
 }
@@ -601,6 +598,7 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+    margin-bottom: 20px;
 }
 .containerif {
     background-color: #1a5c37;
