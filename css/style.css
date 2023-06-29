@@ -312,8 +312,9 @@ nav .close-icon {
 }
 
 .nossa-missao .nossa-missao-img {
-     
-     
+    width: 100%;
+    padding: 20px;
+       
 }
 
 .nossa-missao .nossa-missao img {
