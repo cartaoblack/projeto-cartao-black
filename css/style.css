@@ -301,7 +301,7 @@ nav .close-icon {
 }
 
 .nossa-missao .nossa-missao-text {
-    width: 60%;
+    width: 100%;
     padding: 20px;
 }
 
@@ -312,8 +312,8 @@ nav .close-icon {
 }
 
 .nossa-missao .nossa-missao-img {
-    width: 40%;  
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+     
+     
 }
 
 .nossa-missao .nossa-missao img {
