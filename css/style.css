@@ -203,7 +203,7 @@ nav .close-icon {
 }
 
 .depoimentos .cards-itens img {
-    border-radius: 0%;
+    border-radius: 3%;
     width: 80px;
     display: block;
     margin: 30px auto;
