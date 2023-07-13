@@ -234,14 +234,14 @@ nav .close-icon {
 } 
 
 .depoimentos .cards-itens:hover {
-    background-color: #83e1ad;
+    background-color: #1a5c37;
     margin-top: -5px;
 }
 
 .depoimentos .cards-itens:hover .nome-user,
 .depoimentos .cards-itens:hover .depoimento-user,
 .depoimentos .cards-itens:hover .estrelas {
-    color: white;
+    color: #83e1ad;
 }
 
 .parceiros h3 {
