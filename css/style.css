@@ -818,3 +818,52 @@ div.video > iframe {
     }
 
 }
+
+body {
+  background-color: #000;
+  color: #34C759;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  border: 1px solid #34C759;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #34C759;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #34C759;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2E865F;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #444;
+  border: 1px solid #34C759;
+}

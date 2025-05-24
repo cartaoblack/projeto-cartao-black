@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Financiamento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Financiamento</h1>
+    <form id="simulador-form">
+      <label for="valor-financiamento">Valor do Financiamento:</label>
+      <input type="number" id="valor-financiamento" name="valor-financiamento"><br><br>
+      <label for="prazo-pagamento">Prazo de Pagamento (meses):</label>
+      <input type="number" id="prazo-pagamento" name="prazo-pagamento"><br><br>
+      <label for="taxa-juros">Taxa de Juros Mensal (%):</label>
+      <input type="number" id="taxa-juros" name="taxa-juros"><br><br>
+      <button id="calcular-button">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
