@@ -54,9 +54,12 @@ form.addEventListener('submit', async (e) => {
   const bairro = dados.get('bairro');
   const cidade = dados.get('cidade');
   const estado = dados.get('estado');
+  const assunto = dados.get('assunto');
+  const mensagem = dados.get('mensagem');
+
 
   // Verifica se todos os campos estão preenchidos
-  if (nome && email && telefone && celular && cpf && rg && nascimento && profissao && mae && cep && endereco && numero && bairro && cidade && estado) {
+  if (nome && email && telefone && celular && cpf && rg && nascimento && profissao && mae && cep && endereco && numero && bairro && cidade && estado && assunto && mensagem) {
     try {
       // Envia os dados para o servidor
       const response = await fetch('/cadastro', {
@@ -80,6 +83,8 @@ form.addEventListener('submit', async (e) => {
           bairro,
           cidade,
           estado,
+          assunto,
+          mensagem,
         }),
       });
 
